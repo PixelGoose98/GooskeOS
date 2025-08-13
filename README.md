@@ -1,1 +1,1 @@
-A small os me and a dude are makin
+A small os me and a couple of dudes are makin
