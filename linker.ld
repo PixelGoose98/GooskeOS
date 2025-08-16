@@ -3,7 +3,7 @@ ENTRY(start)
 
 SECTIONS
 {
-    . = 0x1000;              /* link/load at 8 KiB */
+    . = 0x100000;              /* link/load at 8 KiB */
 
     .text : { *(.text*) }
     .rodata : { *(.rodata*) }

@@ -32,3 +32,16 @@ void print(const char* str) {
     }
     update_cursor();
 }
+
+#define IDT_ENTRIES 256
+#define KERNEL_CS 0x08  // Kernel code segment selector from your GDT
+
+typedef struct IDT32 {
+    uint16_t isr_low;
+    uint16_t kernel_cs;
+    uint8_t reserved;
+    uint8_t attributes;
+    uint16_t isr_high;
+} __attribute__((packed)) IDT32;
+
+IDT32 _idt32[IDT_ENTRIES];

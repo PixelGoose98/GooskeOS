@@ -2,19 +2,6 @@
 
 // ---------- Kernel entry ----------
 void kmain(void) {
-    //enable_cursor(1, 1);
-    /*
-
-    outp("WELCOME TO GKERNEL V0.0_01_A\n");
-    outp("This is line 2\n");
-    outp("And here is line 3\n");
-    outp("Hello, World!\n");
-    outp("Holo, Wold\n");
-    outp("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-    printf("wtf gang");
-    // Test scrolling
-    */
-
     print("sexy unga\n bunga");
     print("\nwelcome to GKERNEL");
     for (;;);
